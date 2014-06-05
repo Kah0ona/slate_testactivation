@@ -1,18 +1,16 @@
 {
-  "name": "Slate",
-  "version": "0.3.1",
-  "authors": [
-    "Ismay <ismay@lokaalgevonden.nl>"
-  ],
-  "description": "Bower dependencies for the Slate theme",
-  "keywords": [
-    "Slate"
-  ],
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "bourbon": "~3.1.8",
-    "neat": "~1.6.0",
-    "modularized-normalize-scss": "~3.0.0"
-  }
+	"name": "testactivation",
+	"version": "0.3.1",
+	"authors": "Marten <marten@sytematic.nl>",
+	"description": "Bower dependencies for the Slate theme",
+	"keywords": [
+		"Slate"
+	],
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"bourbon": "~3.1.8",
+		"neat": "~1.6.0",
+		"modularized-normalize-scss": "~3.0.0"
+	}
 }
