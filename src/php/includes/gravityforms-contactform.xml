@@ -40,7 +40,7 @@
 		</confirmations>
 		<notifications>
 			<notification id="535666d9344bc">
-				<to><![CDATA[marten@lokaalgevonen.nl]]></to>
+				<to><![CDATA[xx]]></to>
 				<name><![CDATA[Standaard notificatie]]></name>
 				<event><![CDATA[form_submission]]></event>
 				<toType><![CDATA[email]]></toType>

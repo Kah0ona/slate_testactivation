@@ -51,7 +51,33 @@ module.exports = function(grunt) {
           filter: function(slugString) {
             return slugString.replace(/ /g, '-').replace(/\./, '-').toLowerCase();
           }
-        }, {
+        }, 
+		{
+          config: 'clientMail',
+          type: 'input',
+          message: "What is the CLIENT's email address?"
+		},
+		{
+          config: 'clientPhone',
+          type: 'input',
+          message: "What is the CLIENT's main phone number?"
+		},
+		{
+          config: 'clientStreet',
+          type: 'input',
+          message: "What is the CLIENT's street+number?"
+		},
+		{
+          config: 'clientZipcode',
+          type: 'input',
+          message: "What is the CLIENT's zipcode/postcode?"
+		},
+		{
+          config: 'clientCity',
+          type: 'input',
+          message: "What is the CLIENT's city?"
+		},
+		{
           // Set the project's homepage url
           config: 'projectWebsite',
           type: 'input',

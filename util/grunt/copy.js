@@ -81,12 +81,12 @@ module.exports = function (grunt) {
     php_child: {
       files: [{
         cwd: 'dev/php/templates',
-        src: '*.php',
+        src: '*.*',
         dest: 'dist/child',
         expand: true
       }, {
         cwd: 'dev/php/includes',
-        src: '*.php',
+        src: '*.*',
         dest: 'dist/child/includes',
         expand: true
       }]

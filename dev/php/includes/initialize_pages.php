@@ -27,7 +27,6 @@ class SiteInitializer {
 		$this->createDefaultUsers();
 		$this->activatePlugins();
 		$this->createLGSubdomain();
-		$this->createContactForm();
 	}
 
 
